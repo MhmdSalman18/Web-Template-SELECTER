@@ -1,0 +1,194 @@
+body{
+  font-family: "Ubuntu";
+  text-align: center;
+}
+h1 {
+  font-family: "Ubuntu";
+  font-size:3em;
+  line-height:1.5;
+  color: #FFF;
+  text-align: left;
+}
+h2{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "ubuntu";
+}
+p{
+  color:#8f8f8f;
+}
+
+/*fonts*/
+
+.container-fluid{
+  padding: 3% 10% 0%;
+}
+
+/*navbar*/
+
+.navbar {
+  padding: 0 0 4.5rem; 
+}
+.nav-item{
+  padding: 0 10px ;
+  color:white !important;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "ubuntu";
+  color: #30cfd0 !important; 
+}
+.nav-link:hover{
+  color: #FFE15D !important;
+}
+
+
+/*download bottons*/
+
+.download-button{
+ margin-right: 5px; 
+}
+#title{
+  font-family: 'Rubik Mono One', sans-serif;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  font-family: "ubuntu";
+  text-align: left;
+}
+#titleimage1{
+  margin-bottom: 0;
+}
+.title-image{
+  width: 100%; 
+}
+
+/*features*/
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+#features{
+  padding: 7% 5%;
+  font-family: "ubuntu"; 
+}
+
+/*icons*/
+
+.icons{
+  color: #30cfd0 ;
+  margin-bottom: 2rem;
+}
+.icons:hover{
+  color:#330867;
+}
+
+/*testimonials*/
+
+#testimonials{
+ 
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  text-align: center;
+  color: #FFF;
+  font-size: small;
+}
+.testimonials-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+#press{
+  background-color: #FFE15D;
+  padding-bottom: 3%;
+}
+
+/*pricing*/
+
+#pricing{
+  padding: 10%;
+  text-align: center;
+}
+.pricing-column{
+  padding-top: 3%;
+}
+.card-header{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+/*template*/
+
+#temp
+{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.template-image{
+  margin: 5%;
+}
+
+/*social media*/
+
+.social-icons-insta{
+  margin:10px;
+}
+.social-icons-insta:hover{
+  color:#cd486b;
+}
+.social-icons-twit{
+  margin:10px;
+}
+.social-icons-twit:hover{
+  color:#00acee;
+}
+.social-icons-facb{
+  margin:10px;
+}
+.social-icons-facb:hover{
+  color: #3b5998;
+}
+.social-icons-linkd{
+  margin:10px;
+}
+.social-icons-linkd:hover{
+  color: #0a66c2;
+}
+.social-icons-yout{
+  margin:10px;
+}
+.social-icons-yout:hover{
+  color:#ff0000
+}
+.social-icons-reddi{
+  margin:10px;
+}
+.social-icons-reddi:hover{
+  color:#ff4500 ;
+}
+.social-icons-gith{
+  margin:10px;
+}
+.social-icons-gith:hover{
+  color: #4078c0;
+}
+.g{
+  padding: 2%;
+}
+.button2{
+  margin:10px;
+}
+
+@media (max-width: 600px){
+  .template-image{
+  
+    margin-left: 0;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  
+}
